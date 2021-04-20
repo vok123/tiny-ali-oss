@@ -1,0 +1,29 @@
+{
+  "name": "tiny-ali-oss",
+  "version": "1.0.0",
+  "author": "vok123",
+  "description": "tiny ali-oss",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist --declaration"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "md5": "^2.3.0",
+    "jssha": "^3.2.0",
+    "@types/md5": "^2.3.0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vok123/tiny-ali-oss.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/vok123/tiny-ali-oss/issues"
+  }
+}
